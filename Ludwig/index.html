@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+   <Link href="css/style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+        <img src="img/ludwiglogo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        Ludwig Mies van der Rohe
+      </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Work
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#buildings">Architecture Work</a></li>
+                <li><a class="dropdown-item" href="#uso">Industrial Design</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Other Work</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container py-4">
+
+   <div class="p-5 mb-4 bg-light rounded-3 water">
+     <div class="container-fluid py-5">
+       <h1 class="display-5 fw-bold text-light ">Work designed by Ludwig Mies van der Rohe</h1>
+       <p class="col-md-8 fs-4 text-light">Ludwig Mies van der Rohe was a German-American architect. He was commonly referred to as Mies, his surname. Along with Alvar Aalto, Le Corbusier, Walter Gropius and Frank Lloyd Wright, he is regarded as one of the pioneers of modernist architecture.</p>
+       <button class="btn btn-primary btn-lg" type="button">Learn More</button>
+     </div>
+   </div>
+
+   <div class="row align-items-md-stretch bar">
+     <div class="col-md-6 -100 p-5">
+       <div>
+         <h2>Barcelona Pavilion</h2>
+         <p>The Barcelona Pavilion, designed by Ludwig Mies van der Rohe and Lilly Reich, was the German Pavilion for the 1929 International Exposition in Barcelona, Spain. This building was used for the official opening of the German section of the exhibition.</p>
+         <button class="btn btn-outline-light" type="button">Learn More</button>
+       </div>
+     </div>
+     <div class="col-md-6">
+       <div class="h-100 p-5 bg-light border rounded-3">
+         <h2>S. R. Crown Hall</h2>
+         <p>S. R. Crown Hall, designed by the German-American Modernist architect, is the home of the College of Architecture at the Illinois Institute of Technology in Chicago, Illinois</p>
+         <button class="btn btn-outline-secondary" type="button">Learn More</button>
+       </div>
+     </div>
+   </div>
+   <div class="container py-5">
+     <h1 id="about">About Ludwig Mies van der Rohe</h1>
+     <div class="row">
+       <div class="col-4">
+              <div class="card">
+       <img src="img/ludwig portrait.png" class="card-img-top" alt="Frank Lloyd Wright">
+       <div class="card-body">
+         <p class="card-text">1886-1969</p>
+       </div>
+     </div>
+   </div>
+     <div class="col-8">
+       <div class="card">
+  <div class="card-body">
+    Ludwig Mies was the son of a master mason who owned a small stonecutter’s shop. Mies helped his father on various construction sites but never received any formal architectural training. At age 15 he was apprenticed to several Aachen architects for whom he sketched outlines of architectural ornaments, which the plasterers would then form into stucco building decorations. This task developed his skill for linear drawings, which he would use to produce some of the finest architectural renderings of his time.
+
+    In 1905, at the age of 19, Mies went to work for an architect in Berlin, but he soon left his job to become an apprentice with Bruno Paul, a leading furniture designer who worked in the Art Nouveau style of the period. Two years later he received his first commission, a traditional suburban house. Its perfect execution so impressed Peter Behrens, then Germany’s most progressive architect, that he offered the 21-year-old Mies a job in his office, where, at about the same time, Walter Gropius and Le Corbusier were also just starting out.
+
+    Behrens was a leading member of the Deutscher Werkbund, and through him Mies established ties with this association of artists and craftsmen, which advocated “a marriage between art and technology.” The Werkbund’s members envisioned a new design tradition that would give form and meaning to machine-made things, including machine-made buildings. This new and “functional” design for the industrial age would then give birth to a Gesamtkultur, that is, a new universal culture in a totally reformed man-made environment. These ideas motivated the “modern” movement in architecture that would soon culminate in the so-called International Style of modern architecture.
+  </div>
+</div>
+   </div>
+ </div>
+</div>
+
+<div class="container py-4">
+  <h1 id="buildings">Architecture Work</h1>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/sr crown.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>S. R. Crown</h5>
+        <p>The home of the College of Architecture at the Illinois Institute of Technology in Chicago</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/farnsworth.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Farnsworth House</h5>
+        <p>The Farnsworth House is a historical house designed and constructed between 1945 and 1951</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/villat.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Villa Tugendhat</h5>
+        <p>One of the pioneering prototypes of modern architecture in Europe</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+<div class="container">
+  <h1 id="uso">Industrial Design</h1>
+  <div class="card text-center">
+    <h5 class="card-header">Featured Work</h5>
+    <div class="card-body">
+      <h5 class="card-title">Barcelona Chair</h5>
+      <p class="card-text">It is one of the most famous chairs in the world of furniture and decoration and what few know is that called model MR90, not Barcelona chair as we know it today. Van der Rohe created is chair with its ottoman and the matching side table.</p>
+      <a href="#" class="btn btn-primary">More Furniture</a>
+    </div>
+  </div>
+</div>
+
+<img src="img/chair.png" class="img-fluid" alt="Responsive image">
+
+<img src="img/chair2.png" class="img-fluid" alt="Responsive image">
+
+</div>
+<div class="py-4 px-4 bg-dark">
+
+<div class="row">
+
+<div class="col-6">
+  <p class="text-light text-center">LudwigMiesvanderRohe.com</p>
+</div>
+<div class="col-6">
+<form class="d-flex" role="search">
+  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+  <button class="btn btn-outline-success" type="submit">Search</button>
+</form>
+
+</div>
+
+</div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
