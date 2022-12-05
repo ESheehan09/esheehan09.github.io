@@ -1,0 +1,12 @@
+.water {
+  background-image: url("../img/barcelona2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+
+.build {
+color: blue;
+
+}
